@@ -1,0 +1,54 @@
+
+
+body, html{ 
+	background-image: url("../images/wallpaper.jpg");     /*background image stránky */
+}
+
+
+
+#strana{         /*background image banneru */
+	background-image: url("../images/fotoHore.jpg");
+}
+
+#tlacitkaDiv{
+	animation: fadein 1s;
+	text-align: center;
+}
+.tlc{
+	color: white;
+	border-radius: 8px;
+	background-color: #2c333aa6;
+	margin-left: 1%;
+	margin-right: 1%;
+	border: 0px;
+	width: 9rem;
+	transition-duration: 1s;
+}
+.tlc:hover{
+	color: white;
+	box-shadow: 0px 7px 19px 3px rgba(0,0,0,0.6);
+	transform: scale(1.10);	
+	opacity: 90%;
+	background-color: #212F3D;
+	transition-duration: 1s;
+}
+
+
+#adm{
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: white;
+    width: 8rem;
+    margin-left: 1.5rem;
+    transition-duration: .7s;
+}
+#adm:hover{
+    transform: scale(1.6);
+    text-decoration:underline !important;
+}
+
+
+#mapaPic{
+	border-radius: 16px;
+}

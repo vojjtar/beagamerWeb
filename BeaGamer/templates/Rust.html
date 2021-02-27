@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="../static/js/statusScript.js"></script>
+		<script src="../static/js/animace.js"></script>
+
+		<title>beagamer - Rust</title>
+		<link rel="icon" href="../static/images/icon3.png" type="image/x-icon">
+
+
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/spolecne.css') }}" type="text/css">  
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/stranaRust.css') }}" type="text/css">
+
+
+
+		<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<div id="page-container">
+			<div id="content-wrap">
+				<div class="banner" id="strana">
+						<div id="logoPozice">
+							<button class="logo" onclick="ukazElement('uvodniText')">
+								<img src="../static/images/icon2.png" id="icona">
+								<h1>
+									RUST
+								</h1>
+							</button>
+						</div>
+					<div class="clearfix"></div>
+
+					<div class="center">
+						<button class="menu" onclick="ukazElement('ServerInfo')">Modded(2x)<span class="onlineStatus" id="vanillaServerStatus">-</span></button>
+						<button class="menu" onclick="ukazElement('disDiv')">Discord</button>
+					</div>
+				</div>
+
+				<div id='disDiv' class="proAnim">
+					<iframe id="discord" src="https://discord.com/widget?id=815294642869370950&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+				</div>
+
+				<div id="uvodniText" class="proAnim">
+					<p class="Odstavce">
+						Soccuss Cummus
+					</p>
+				</div>
+
+				<div id="ServerInfo" class="proAnim">
+					<div id="tlacitkaDiv">
+
+					</div>
+					<h3 class="nadpisyOdstavcu">[Info]</h3>
+					<p class="Odstavce" style="text-align: center;">
+						<span id="info1">
+							loading...
+						</span><br>
+						<span id="info2">
+							loading...
+						</span><br>
+						<span id="info3">
+							loading...
+						</span><br>
+						<span id="info4">
+							loading...
+						</span><br>
+						<span id="info5">
+							<img id="mapaPic" src="" alt="">
+						</span><br>
+
+
+					</p>
+
+					<h3 class="nadpisyOdstavcu">[Admin Team]</h3>
+					<p class="Odstavce">
+						hl. admin: <a href="https://google.com" target="_blank"><button id="adm">idk</button></a> <br>
+						admin: <a href=""><button id="adm">uz nevim</button></a> <br>
+					</p>
+
+					<h3 class="nadpisyOdstavcu">[Pravidla]</h3>
+					<p class="Odstavce">
+						1) Lorem ipsum dolor sit amet.<br>
+						2) Fusce wisi. Nulla pulvinar eleifend sem.<br>
+						3) In sem justo, commodo ut.<br>
+						4) Etiam sapien elit, consequat eget, tristique non.<br>
+						5) Duis ante orci, molestie vitae.<br>
+						6) Curabitur sagittis hendrerit ante.<br>
+						7) Phasellus rhoncus.<br>
+						8) Etiam bibendum elit eget erat.<br>
+						9) Aenean vel massa quis mauris.<br>
+					</p>
+
+				</div>
+			</div>
+
+			<div id="footer">
+				<div class="center" id="centerFooter">
+					<div class="obalovacCZ" id="centerID">
+						<img id="gitIm" src="../static/images/github.png">
+						
+						<div class="footerText">
+							- 
+							<a id="odkazyNaGitHub" href="https://github.com/vojjtar" target="_blank">@vojjtar</a>
+							,  
+							<a id="odkazyNaGitHub" href="https://github.com/InquisitorEdward" target="_blank">@InquisitorEdward</a>
+						</div>
+					</div>
+					
+					<img id="footerImage" src="../static/images/icon1.png">
+
+					<div class="obalovacCZ" id="centerID">
+						<div class="footerText">Logo by - <a  id="linkLogo" href="https://www.designevo.com/" target="_blank" title="Free Online Logo Maker">DesignEvo logo maker</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

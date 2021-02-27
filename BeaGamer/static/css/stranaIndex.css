@@ -1,0 +1,13 @@
+
+
+body, html{
+	/*background image stránky */
+	background-image: url("../images/wallpaper.jpg");
+}
+
+
+
+#strana{
+	/*background image banneru */
+	background-image: url("../images/fotoHore.jpg");
+} 

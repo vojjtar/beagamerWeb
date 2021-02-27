@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>beagamer.eu - Hlavní Portál</title>
+		<link rel="icon" href="../static/images/icon3.png" type="image/x-icon">
+
+
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/spolecne.css') }}" type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/stranaIndex.css') }}" type="text/css">  
+
+
+		<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+		<div id="page-container">
+			<div id="content-wrap">
+				<div class="banner" id="strana">
+						<div id="logoPozice">
+							<a href="{{url_for('beagamerHub')}}">
+								<button class="logo">
+									<img src="../static/images/icon1.png" id="icona">
+
+									<h1>
+										beaGamer
+									</h1>
+								</button>
+							</a>	
+						</div>
+
+
+
+					<div class="clearfix"></div>
+
+					<div class="center">
+						<a href="{{url_for('rustHub')}}">
+							<button class="menu">
+								RUST				
+							</button>
+						</a>
+					</div>
+				</div>
+
+				<div id="disDiv">
+					<iframe id="discord" src="https://discord.com/widget?id=623451997336502282&theme=dark"  allowtransparency="true" frameborder="0"  sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+				</div>
+				<div id="footer">
+					<div class="center" id="centerFooter">
+						<div class="obalovacCZ" id="centerID">
+							<img id="gitIm" src="../static/images/github.png">
+							
+							<div class="footerText">
+								- 
+								<a id="odkazyNaGitHub" href="https://github.com/vojjtar" target="_blank">@vojjtar</a>
+								,  
+								<a id="odkazyNaGitHub" href="https://github.com/InquisitorEdward" target="_blank">@InquisitorEdward</a>
+							</div>
+						</div>
+						
+						<img id="footerImage" src="../static/images/icon1.png">
+
+						<div class="obalovacCZ" id="centerID">
+							<div class="footerText">Logo by - <a  id="linkLogo" href="https://www.designevo.com/" target="_blank" title="Free Online Logo Maker">DesignEvo logo maker</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div id="footer">
+					<div class="center" id="centerFooter">
+						<div class="obalovacCZ" id="centerID">
+							<img id="gitIm" src="../static/images/github.png">
+							
+							<div class="footerText">
+								- 
+								<a id="odkazyNaGitHub" href="https://github.com/vojjtar" target="_blank">@vojjtar</a>
+								,  
+								<a id="odkazyNaGitHub" href="https://github.com/InquisitorEdward" target="_blank">@InquisitorEdward</a>
+							</div>
+						</div>
+						
+						<img id="footerImage" src="../static/images/icon1.png">
+	
+						<div class="obalovacCZ" id="centerID">
+							<div class="footerText">Logo by - <a  id="linkLogo" href="https://www.designevo.com/" target="_blank" title="Free Online Logo Maker">DesignEvo logo maker</a></div>
+						</div>
+					</div>
+				</div>
+		</div>
+
+	</body>
+</html>
